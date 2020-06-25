@@ -10,6 +10,7 @@ public class FrameworkCore {
     private static WebDriver driver;
     public static String browser = IOUtils.loadGenericProperty("browser", "configuration");
     public static String baseUrl = IOUtils.loadGenericProperty("baseUrl", "configuration");
+    public static String onlinerUrl = IOUtils.loadGenericProperty("onlinerUrl", "configuration");
 
     public static WebDriver getInstance(){
         if(browser.equals(BrowserConstants.CHROME)){

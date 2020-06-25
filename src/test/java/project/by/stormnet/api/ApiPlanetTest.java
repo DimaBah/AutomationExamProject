@@ -1,9 +1,9 @@
-package project.api;
+package project.by.stormnet.api;
 
 import by.stormnet.core.Response;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import project.api.entities.StarWarsService;
+import project.by.stormnet.api.entities.StarWarsService;
 
 public class ApiPlanetTest {
     private StarWarsService starWarsService = new StarWarsService();

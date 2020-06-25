@@ -1,4 +1,4 @@
-package project.functional.entities.pages;
+package project.by.stormnet.functional.entities.pages;
 
 public class HomePage extends AbstractPage{
     private static String Logo = "//a[@class=\"header__logo\"]";

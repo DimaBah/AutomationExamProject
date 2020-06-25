@@ -1,4 +1,4 @@
-package project.functional.entities.pages;
+package project.by.stormnet.functional.entities.pages;
 
 import by.stormnet.core.FrameworkCore;
 import by.stormnet.core.utils.PauseLenght;
@@ -22,6 +22,10 @@ public class AbstractPage extends FrameworkCore {
     public void openUrl (String url){
         driver.manage().window().maximize();
         driver.get(url);
+    }
+
+    public void wait(int mlsecs) throws InterruptedException {
+        Thread.sleep(mlsecs);
     }
 
     public static void waitForElementVisible(final By by){

@@ -1,8 +1,8 @@
-package project.functional.entities.pages;
+package project.by.stormnet.functional.entities.pages;
 
 public class SearchPage extends AbstractPage{
     private static String resultsCounter = "//span[@class = \"products-catalog__head-counter\"]";
-    private static  String results = "//div[@class = \"products-list-item dyother dyMonitor\"]";
+    private static String results = "//div[@class = \"products-list-item dyother dyMonitor\"]";
 
     public static SearchPage getSearchPage(){
         SearchPage searchPage = new SearchPage();

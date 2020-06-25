@@ -1,6 +1,6 @@
-package project.functional.entities.helpers;
+package project.by.stormnet.functional.entities.helpers;
 
-import project.functional.entities.pages.AbstractPage;
+import project.by.stormnet.functional.entities.pages.AbstractPage;
 
 public class AbstractHelper {
     AbstractPage abstractPage = new AbstractPage();

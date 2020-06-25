@@ -1,6 +1,6 @@
-package project.functional.entities.helpers;
+package project.by.stormnet.functional.entities.helpers;
 
-import project.functional.entities.pages.SearchPage;
+import project.by.stormnet.functional.entities.pages.SearchPage;
 
 public class SearchHelper extends AbstractHelper{
     private SearchPage searchPage = new SearchPage();

@@ -1,9 +1,9 @@
-package project.api;
+package project.by.stormnet.api;
 
 import by.stormnet.core.Response;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import project.api.entities.UserService;
+import project.by.stormnet.api.entities.UserService;
 
 public class ApiPracticeTest {
     private UserService userService = new UserService();

@@ -1,4 +1,4 @@
-package project.api.entities;
+package project.by.stormnet.api.entities;
 
 import by.stormnet.core.FrameworkHttpClient;
 import by.stormnet.core.Response;

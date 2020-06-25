@@ -1,6 +1,6 @@
-package project.functional.entities.helpers;
+package project.by.stormnet.functional.entities.helpers;
 
-import project.functional.entities.pages.HomePage;
+import project.by.stormnet.functional.entities.pages.HomePage;
 
 public class HomeHelper extends AbstractHelper{
     private HomePage homePage = new HomePage();
